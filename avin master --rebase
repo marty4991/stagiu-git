@@ -1,0 +1,68 @@
+[33mcommit 763a04f42e1dc162c6f697ad5311369f81b1dc66[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: marty4991 <zotic.marian@yahoo.com>
+Date:   Thu Mar 21 19:12:51 2019 +0200
+
+    Another commit
+
+[33mcommit 7dee6fda3956ae8b32d0d38dfa1056aa9e7f9993[m[33m ([m[1;31mbogdansavin/master[m[33m)[m
+Merge: 871a674 07abadd
+Author: fbog <bogdansavinro@gmail.com>
+Date:   Thu Mar 21 18:56:07 2019 +0200
+
+    Merge pull request #5 from vpetrovici/master
+    
+    vlad first ticket
+
+[33mcommit 871a674821b707b77f5c640ece4229bb9d1582a3[m
+Merge: 8372d17 42aca9b
+Author: fbog <bogdansavinro@gmail.com>
+Date:   Thu Mar 21 18:55:19 2019 +0200
+
+    Merge pull request #6 from marty4991/master
+    
+    Second commit
+
+[33mcommit 8372d1732369de09409b85c01c27da709f9de304[m
+Merge: b67e5af ad950cc
+Author: fbog <bogdansavinro@gmail.com>
+Date:   Thu Mar 21 18:54:25 2019 +0200
+
+    Merge pull request #4 from LuciaCorlat/master
+    
+    Initial Commit
+
+[33mcommit 07abadd25330df02ad93a501d3bca0e580156711[m
+Author: vpetrovici <vlad.petrovici@yahoo.com>
+Date:   Thu Mar 21 18:49:53 2019 +0200
+
+    removed vpetrovici.txt
+
+[33mcommit ad950cc00201146129c3cca38e5626c357e37427[m
+Author: LuciaCorlat <lucia.corlat@gmail.com>
+Date:   Thu Mar 21 18:46:27 2019 +0200
+
+    Initial Commit
+
+[33mcommit 42aca9bbb15a745d2b1bcca84c38b83d1cf16569[m
+Author: marty4991 <zotic.marian@yahoo.com>
+Date:   Thu Mar 21 18:43:24 2019 +0200
+
+    Second commit
+
+[33mcommit 656557c1054cdce4a1901664292a37e27dc3242f[m
+Author: vpetrovici <vlad.petrovici@yahoo.com>
+Date:   Thu Mar 21 18:43:10 2019 +0200
+
+    changed the file name
+
+[33mcommit 0f7ca18a135e900aed14e545f19ae816186f76db[m
+Author: vpetrovici <vlad.petrovici@yahoo.com>
+Date:   Thu Mar 21 18:38:26 2019 +0200
+
+    vpetrovici commit
+
+[33mcommit b67e5af7b8b64ba2dab86cdb3bbe8b927d01b3b5[m
+Author: Bogdan Savin <bogdan.savin@externals.adidas.com>
+Date:   Thu Mar 21 18:32:55 2019 +0200
+
+    First commit
