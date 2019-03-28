@@ -1,0 +1,237 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    background-color: grey;
+}
+
+.container {
+    background-color: white;
+    width: 8.27in;
+    height: 11.69in;
+    border: 2px solid white;
+    margin-left: 30%;
+}
+
+header {
+    margin-top:50px;
+    text-align: center;
+    line-height: 0.6em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.about {
+    width: 80%;
+    height: auto;
+    margin: 100px 9% 0 11%;
+    border: 2px dashed black;
+}
+
+.about_box_title {
+    width: 19%;
+    font-size: 18px;
+    /* font-weight: bold; */
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: white none repeat scroll 0 0;
+    display: inline-block;
+    margin: -24px 0 -10px 45px;
+    padding-left: 5px;
+    color:#FF0000;
+    font-style: italic;
+    text-decoration: underline double  #AAB876;
+}
+
+.about_box_title:hover {
+    background-color: #3e8e41;
+    color:	#FFFAFA;
+}
+
+.about_style {
+    padding: 10px;
+    margin: 5px;
+    text-align: justify;
+    font-size: 18px;
+    font-style: oblique;
+    color: #B5A789;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.experience {
+    width: 80%;
+    height: auto;
+    margin: 50px 9% 0 11%;
+    border:2px dashed black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .work-experience-title{
+    width: 31%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: white none repeat scroll 0 0;
+    margin: -30px 0 0 45px;
+    padding-left: 5px;
+    color: #7EFF00;
+    border-left: 5px solid #FF0000;
+    border-top: 5px solid #FFFF00 ;
+    border-right: 5px solid #011D99;
+    /* border-bottom: 5px dashed #7EFF00; */
+    background-color: #A69E94;
+    transition: 0.7s;
+  }
+
+  .work-experience-title:hover {
+      background-color: #253735;
+      color: #FF584C;
+  }
+
+  li {
+    list-style-type: none;
+}
+
+li:first-child {
+    font-weight: bolder;
+    font-style: italic;
+    color: #DDD121;
+    
+}
+
+.workplace{
+    margin: 0 0 20px -23px;
+    text-align: left;
+    font-size: 18px;
+    font-family: "Goudy Bookletter 1911", sans-serif
+}
+
+.workplace-description {
+margin: 13px 13px;
+text-align: justify;
+font-size: 18px;
+font-family: "Goudy Bookletter 1911", sans-serif;
+color: #FF8000;
+text-transform: lowercase;
+
+ }
+
+ .skills {
+     width: 80%;
+     height: auto;
+     margin: 50px 9% 0 11%;
+     border: 2px dashed black; 
+ }
+
+ .skills-title {
+    width: 11%;
+    font-size: 20px;
+    /* font-weight: bold; */
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: white none repeat scroll 0 0;
+    display: inline-block;
+    margin: -26px 0 0 75px;
+    padding-left: 5px;
+    color: #011D99;
+    border-bottom: 5px dashed #7EFF00;
+    transition: 0.4s;
+ }
+
+ .skills-title:hover {
+     background-color: #430800;
+     color: #DF862F;
+ }
+
+
+.skills-style1  > li {
+    border:2px solid black;
+    padding: 5px;
+    display: inline-block;   
+    font-size: 15px; 
+    background-color: #EF7C38;
+    cursor: pointer;
+}
+
+.skills-style1 > li:hover {
+    background-color: yellow;
+    color:green;
+    font-weight:bold;
+    opacity: 1.0;
+}
+
+.skills-style1:hover > li:not(:hover) {
+    opacity:0.5;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    left: 15%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.skills-style2 > li {
+    border:2px solid black;
+    padding: 5px;
+    display: inline-block; 
+    font-size: 15px;   
+    background-color: #EF7C62;
+    cursor: pointer;
+}
+
+.skills-style2 > li:hover {
+    background-color: green;
+    color: yellow;
+    font-style: italic;
+    font-weight: bold;
+    opacity: 1.0;
+
+}
+
+.skills-style2:hover > li:not(:hover) {
+    opacity:0.5;
+}
+
+.skills-style1 > .img-valign  {
+    vertical-align: middle;
+}
+
+.skills-style2 > .img-valign  {
+    vertical-align: middle;
+}
+
+.skills ul {
+    font-size: 13px;
+    list-style: none;
+    margin: 10px;
+    padding: 5px 0 15px 10px;
+}
+
+img + li {
+    margin-right: 35px;
+}
+
+.skills-mongo-distance  {
+    margin-left: 29px;
+}
