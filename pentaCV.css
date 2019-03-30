@@ -59,179 +59,68 @@ header {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
 .experience {
     width: 80%;
     height: auto;
-    margin: 50px 9% 0 11%;
-    border:2px dashed black;
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-
-  .work-experience-title{
-    width: 31%;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    font-size: 20px;
-    /* font-weight: bold; */
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    background: white none repeat scroll 0 0;
-    margin: -30px 0 0 45px;
-    padding-left: 5px;
-    color: #7EFF00;
-    border-left: 5px solid #FF0000;
-    border-top: 5px solid #FFFF00 ;
-    border-right: 5px solid #011D99;
-    /* border-bottom: 5px dashed #7EFF00; */
-    background-color: #A69E94;
-    transition: 0.7s;
-  }
-
-  .work-experience-title:hover {
-      background-color: #253735;
-      color: #FF584C;
-  }
-
-  li {
-    list-style-type: none;
+    margin: 100px 9% 0 11%;
+    border: 2px dashed black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; 
 }
 
-li:first-child {
-    font-weight: bolder;
+.workplace-item {
+  /* background: tomato; */
+  width: 44%;
+  height: auto;
+  margin: 1%;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+.experience_box_title {
+    width: 100%;
+    margin: 3px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: white none repeat scroll 0 0;
+    margin: -16px 415px -10px 45px;
+    padding-left: 5px;
+    color:#FF0000;
     font-style: italic;
-    color: #DDD121;
-    
 }
-
-.workplace{
-    margin: 0 0 20px -23px;
-    text-align: left;
-    font-size: 18px;
-    font-family: "Goudy Bookletter 1911", sans-serif
+.workplace-item span {
+    display:block;
 }
-
-.workplace-description {
-margin: 13px 13px;
-text-align: justify;
-font-size: 18px;
-font-family: "Goudy Bookletter 1911", sans-serif;
-color: #FF8000;
-text-transform: lowercase;
-
- }
-
- .skills {
-     width: 80%;
-     height: auto;
-     margin: 50px 9% 0 11%;
-     border: 2px dashed black; 
- }
-
- .skills-title {
-    width: 11%;
-    font-size: 20px;
-    /* font-weight: bold; */
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: white none repeat scroll 0 0;
-    display: inline-block;
-    margin: -26px 0 0 75px;
-    padding-left: 5px;
-    color: #011D99;
-    border-bottom: 5px dashed #7EFF00;
-    transition: 0.4s;
- }
-
- .skills-title:hover {
-     background-color: #430800;
-     color: #DF862F;
- }
-
-
-.skills-style1  > li {
-    border:2px solid black;
-    padding: 5px;
-    display: inline-block;   
-    font-size: 15px; 
-    background-color: #EF7C38;
-    cursor: pointer;
-}
-
-.skills-style1 > li:hover {
-    background-color: yellow;
-    color:green;
+.workplace-item > span:first-child {
     font-weight:bold;
-    opacity: 1.0;
 }
 
-.skills-style1:hover > li:not(:hover) {
-    opacity:0.5;
-}
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
+.skills {
+    width: 80%;
+    height: auto;
+    margin: 50px 9% 0 11%;
+    border: 2px dashed black; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;  
+ }
+ .skills-title {
+    width: 75px;
+    margin: 100px 0 -48px 20%;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #011D99;
+    border: 2px solid hsl(276, 47%, 34%);
+    border-bottom: 5px dashed #7EFF00; 
+ }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    top: -30px;
-    left: 15%;
-}
 
-.tooltip:hover .tooltiptext {
-    visibility: visible;
+.skills-style  {
+    font-size: 20px;
+    margin: 13px;
+    width: 15%;
+    height: auto;
+    border: 2px solid orangered;
 }
+ 
 
-.skills-style2 > li {
-    border:2px solid black;
-    padding: 5px;
-    display: inline-block; 
-    font-size: 15px;   
-    background-color: #EF7C62;
-    cursor: pointer;
-}
-
-.skills-style2 > li:hover {
-    background-color: green;
-    color: yellow;
-    font-style: italic;
-    font-weight: bold;
-    opacity: 1.0;
-
-}
-
-.skills-style2:hover > li:not(:hover) {
-    opacity:0.5;
-}
-
-.skills-style1 > .img-valign  {
-    vertical-align: middle;
-}
-
-.skills-style2 > .img-valign  {
-    vertical-align: middle;
-}
-
-.skills ul {
-    font-size: 13px;
-    list-style: none;
-    margin: 10px;
-    padding: 5px 0 15px 10px;
-}
-
-img + li {
-    margin-right: 35px;
-}
-
-.skills-mongo-distance  {
-    margin-left: 29px;
-}
