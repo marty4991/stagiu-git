@@ -110,8 +110,7 @@ header {
     font-size: 20px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color: #011D99;
-    border: 2px solid hsl(276, 47%, 34%);
-    border-bottom: 5px dashed #7EFF00; 
+
  }
 
 
@@ -121,6 +120,66 @@ header {
     width: 15%;
     height: auto;
     border: 2px solid orangered;
+    position: relative;
+    display: inline-block;
 }
- 
+
+img {
+    margin: 18px -8 0 0;
+}
+
+.skills .img-valign  {
+    margin-left: 20px;
+}
+
+.skills-style .tooltip {
+background: lightgrey;
+border: 1px solid #d1d1d1;
+border-radius: 5px;
+bottom: 140%;
+font-size: 20px;
+display:block;
+left: -20px;
+opacity: 0;
+padding:10px;
+pointer-events: none;
+position: absolute;
+width: 150px;
+z-index: 1;
+transform: translateY(10px);
+transition: all .7s ease-out;
+}
+
+/* .skills-style .tooltip:before {
+    bottom: -42px;
+    content: " ";
+    display: block;
+    height: 20px;
+    left:61px;
+    position: absolute;
+    border-color: #a9a9a9 transparent transparent transparent;
+    border-style: solid;
+    border-width: 11px;
+    z-index: 2;
+} */
+
+.skills-style .tooltip:after {
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-top: solid lightgrey 10px;
+    bottom: -10px;
+    content: " ";
+    height:0;
+    left: 50%;
+    margin-left: -13px;
+    position: absolute;
+    width: 0;
+}
+
+.skills-style:hover .tooltip {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0px);
+
+}
 
