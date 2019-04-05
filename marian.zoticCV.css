@@ -5,43 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
-  body {background: blue;}
-  .employement {
-      grid-template-areas:
-      'header'
-      'main'
-      'section';
-  }
-} 
-/* 
-.grid {
-    grid-template-areas: {
-        'header'
-        'main'
-        'section';
-        width: 100%;
-} */
 
-/* .employement-align {
-    width: calc(100%+2rem);
-    margin: 0 -1rem;
-} */
-
-
-
-/* @media all and (min-width:576px) {
-    .educo, .education, .employement, {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-        margin-bottom: 1rem;
-    }
-} */
-
-@media all and (min-width:768px) {
-    .grid {
-        grid-template-areas:
-        'header section main section section';
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
     }
 }
 
@@ -96,7 +60,6 @@ a {
     margin-top: -5px;
 }
 
-.employement {
     display: grid;
     grid-template-columns: 41% 25% 34%;
 
@@ -156,11 +119,4 @@ header, section, main {
     transition: .7s ease-out;
 }
 
-section, main {
-    margin-top: -26px;
-}
-
-section:hover, header:hover, main:hover{
-    background: lightgrey;
-}
 
